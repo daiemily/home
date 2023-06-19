@@ -1,0 +1,832 @@
+/* navigation bar icon */
+.icon {
+	width:170px;
+	height:170px;
+	margin-left:30px;
+	float:left;
+}
+
+/* welcome section */
+.welcome-paragraph {
+	top:700px;
+	left:400px;
+	text-align:center;
+	font-size:20px;
+}
+
+.homepage-text {
+	background-color:white;
+	top:295px;
+	left:500px;
+	text-align:center;
+	padding:20px 22px;
+	border:3px solid;
+	font-size:60px;
+	font-style:italic;
+	font-family:Optima;
+}
+
+/* creates homepage image */
+.homepage-image {
+	width:100%;
+	height:90%;
+	top:230px;
+	left:0px;
+	position:absolute;
+}
+
+/* creates slogan */
+.slogan {
+	color:black;
+	font-family:Optima;
+	font-style:italic;
+	text-align:center;
+	font-size:20px;
+	top:70px;
+	right:50px;
+	position:absolute;
+	padding:14px 16px;
+	border-style:solid;
+	text-decoration:none;
+}
+
+/* changes the slogan when hovered over */
+.slogan:hover {
+	color:rgb(19, 47, 173);
+	background-color:rgb(227, 232, 255);
+}
+
+/* create buttons for internal links for needles*/
+.needle-type {
+	list-style-type: none;
+	top:350px;
+	left:50px;
+	padding:0;
+	overflow:hidden;
+	position:absolute;
+	background-color:rgb(227, 232, 255);
+}
+
+/* list out the needle types */
+.needle-type-list {
+	font-size:18px;
+	display:block;
+	color:black;
+	font-family:Optima;
+  	text-decoration:none;
+}
+
+/* change the colour of the text when hovered over */
+.needle-type-list:hover {
+	color:rgb(19, 47, 173);
+}
+
+/* create a history section */
+.history-heading {
+	position:absolute;
+	left:950px;
+	color:rgb(11, 33, 128);
+	background-color:rgb(227, 232, 255);
+	font-family:Optima;
+	font-weight:200;
+	padding:10px 20px;
+	font-size:30px;
+	text-align:center;
+}
+
+.history-paragraph {
+	font-size:16px;
+}
+
+/* stitch stopper image */
+.stitch-stoppers {
+	position:absolute;
+	left:670px;
+	top:500px;
+	border-style:dashed;
+	border-color:rgb(255, 179, 196);
+	border-width:thick;
+}
+
+/* straight needles section */
+.straight-needles-heading {
+	color:rgb(19, 47, 173);
+	padding:4px 6px;
+	background-color:rgb(227, 232, 255);
+	margin-top:700px;
+	left:50px;
+	position:absolute;
+	font-family:Optima;
+	font-weight:200;
+}
+
+.straight-needles-paragraph {
+	line-height:1.4;
+	left:50px;
+	margin-top:765px;
+	position:absolute;
+	font-size:16px;
+	font-family:Optima;
+}
+
+.straight_needles_img {
+	position:absolute;
+	left:50px;
+	top:975px;
+}
+
+/* circular needles section */
+.circular-needles-heading {
+	color:rgb(19, 47, 173);
+	padding:4px 6px;
+	background-color:rgb(227, 232, 255);
+	margin-top:1250px;
+	left:50px;
+	position:absolute;
+	font-family:Optima;
+	font-weight:200;
+}
+
+.circular-needles-paragraph {
+	line-height:1.4;
+	left:50px;
+	margin-top:1315px;
+	position:absolute;
+	font-size:16px;
+	font-family:Optima;
+}
+
+.circular_needles_img {
+	position:absolute;
+	left:50px;
+	top:1500px;
+}
+
+/* note for user to click on the needle types */
+.click-to-jump-needle {
+	position:absolute;
+	left:470px;
+	top:145px;
+	font-family:Optima;
+	font-size:12px;
+}
+
+/* create buttons for internal links for yarn */
+.yarn-type {
+	list-style-type: none;
+	top:390px;
+	left:50px;
+	padding:0;
+	overflow:hidden;
+	position:absolute;
+	background-color:rgb(227, 232, 255);
+}
+
+/* list out the yarn types */
+.yarn-type-list {
+	font-size:18px;
+	display:block;
+	color:black;
+	font-family:Optima;
+  	text-decoration:none;
+}
+
+/* change the colour of the text when hovered over */
+.yarn-type-list:hover {
+	color:rgb(19, 47, 173);
+}
+
+/* checking yarn sizes on yarn bundles */
+.yarn-sizes-for-needles {
+	position:absolute;
+	left:790px;
+	top:730px;
+	color:rgb(11, 33, 128);
+	background-color:rgb(227, 232, 255);
+	font-family:Optima;
+	font-weight:200;
+	padding:10px 20px;
+	font-size:24px;
+	text-align:center;
+}
+
+.yarn-font-size {
+	font-size:12px;
+}
+
+/* note for user to click on the yarn types */
+.click-to-jump-yarn {
+	position:absolute;
+	left:550px;
+	top:185px;
+	font-family:Optima;
+	font-size:12px;
+}
+
+/* yarn weight section */
+.yarn-weight-heading {
+	color:rgb(19, 47, 173);
+	padding:6px 8px;
+	background-color:rgb(227, 232, 255);
+	margin-top:660px;
+	left:50px;
+	position:absolute;
+	font-family:Optima;
+	font-weight:200;
+}
+
+.yarn-weight-paragraph {
+	line-height:1.4;
+	left:50px;
+	margin-top:730px;
+	position:absolute;
+	font-size:16px;
+	font-family:Optima;
+}
+
+/* different fibres section */
+.fibre-heading {
+	color:rgb(19, 47, 173);
+	padding:6px 8px;
+	background-color:rgb(227, 232, 255);
+	margin-top:1350px;
+	left:50px;
+	position:absolute;
+	font-family:Optima;
+	font-weight:200;
+}
+
+.fibre-paragraph {
+	line-height:1.4;
+	left:50px;
+	margin-top:1420px;
+	position:absolute;
+	font-size:16px;
+	font-family:Optima;
+}
+
+/* different colours section */
+.colour-heading {
+	color:rgb(19, 47, 173);
+	padding:6px 8px;
+	background-color:rgb(227, 232, 255);
+	margin-top:1800px;
+	left:50px;
+	position:absolute;
+	font-family:Optima;
+	font-weight:200;
+}
+
+.colour-paragraph {
+	line-height:1.4;
+	left:50px;
+	margin-top:1870px;
+	position:absolute;
+	font-size:16px;
+	font-family:Optima;
+}
+
+/* mohair image for the different fibres */
+.mohair-yarn-img {
+	position:absolute;
+	top:1350px;
+	left:830px;
+}
+
+/* tutorials for knitting */
+.iframe-knit {
+	position:absolute;
+	top:480px;
+	left:50px;
+	font-size:30px;
+	font-family:Optima;
+}
+
+.iframe-colours {
+	position:absolute;
+	top:480px;
+	left:50%;
+	font-size:30px;
+	font-family:Optima;
+}
+
+.iframe-cables {
+	position:absolute;
+	top:850px;
+	left:50px;
+	font-size:30px;
+	font-family:Optima;
+}
+
+.iframe-purl {
+	position:absolute;
+	top:850px;
+	left:50%;
+	font-size:30px;
+	font-family:Optima;
+}
+
+.iframe-garter {
+	position:absolute;
+	top:1220px;
+	left:50px;
+	font-size:30px;
+	font-family:Optima;
+}
+
+.iframe-moss {
+	position:absolute;
+	top:1220px;
+	left:50%;
+	font-size:30px;
+	font-family:Optima;
+}
+
+.iframe-round {
+	position:absolute;
+	top:1590px;
+	left:50px;
+	font-size:30px;
+	font-family:Optima;
+}
+
+.iframe-stockinette {
+	position:absolute;
+	top:1590px;
+	left:50%;
+	font-size:30px;
+	font-family:Optima;
+}
+
+.iframe-rib {
+	position:absolute;
+	top:1960px;
+	left:50px;
+	font-size:30px;
+	font-family:Optima;
+}
+
+.iframe-double-rib {
+	position:absolute;
+	top:1960px;
+	left:50%;
+	font-size:30px;
+	font-family:Optima;
+}
+
+/* table for yarn weights */
+
+.table {
+	line-height:1.4;
+	left:50px;
+	margin-top:830px;
+	position:absolute;
+	font-size:16px;
+	padding:6px 8px;
+	font-family:Optima;
+	border-style:solid;
+	border-width:2px;
+	border-color:rgb(24, 38, 128);
+	background-color:rgb(219, 225, 255);
+}
+
+/* note for background context */
+.note {
+	top:1055px;
+	left:50px;
+	position:absolute;
+	font-size:11px;
+}
+
+/* images of creator */
+.aboutme-image1 {
+	top:190px;
+	left:650px;
+	right:20px;
+	position:absolute;
+}
+
+.aboutme-image2 {
+	top:190px;
+	left:880px;
+	right:20px;
+	position:absolute;
+}
+
+.aboutme-image3 {
+	top:190px;
+	left:1110px;
+	right:20px;
+	position:absolute;
+}
+
+/* gallery images */
+.gallery-heading {
+	color:rgb(19, 47, 173);
+	text-align:center;
+	position:absolute;
+	left:590px;
+	top:310px;
+	font-family:Optima;
+	font-weight:200;
+	font-size:60px;
+}
+
+.gallery-images-row1 {
+	top:600px;
+	position:absolute;
+}
+
+.gallery-images-row2 {
+	top:1075px;
+	position:absolute;
+}
+
+.gallery-images-row3 {
+	top:1550px;
+	position:absolute;
+}
+
+.gallery-images-row4 {
+	top:2025px;
+	position:absolute;
+}
+
+.gallery-images-row5 {
+	top:2500px;
+	position:absolute;
+}
+
+.gallery-images-row6 {
+	top:2975px;
+	position:absolute;
+}
+
+/* colour change for important words */
+.blue {
+	color:rgb(19, 47, 173);
+}
+
+/* ending section */
+.ending-homepage {
+	width:100%;
+	height:50%;
+	top:1100px;
+	position:absolute;
+	left:0px;
+}
+
+.ending-image-homepage {
+	width:30%;
+	height:30%;
+	left:480px;
+	top:1150px;
+	position:absolute;
+}
+
+.instagram-icon-homepage {
+	top:1200px;
+	left:80px;
+	position:absolute;
+}
+
+.email-icon-homepage {
+	top:1200px;
+	left:140px;
+	position:absolute;
+}
+
+.ending-text-homepage {
+	top:900px;
+	font-family:Optima;
+	font-size:20px;
+	position:absolute;
+	background-color:rgb(227, 232, 255);
+}
+
+.ending-needles {
+	width:100%;
+	height:50%;
+	top:1970px;
+	position:absolute;
+	left:0px;
+}
+
+.ending-image-needles {
+	width:30%;
+	height:30%;
+	left:480px;
+	top:2020px;
+	position:absolute;
+}
+
+.instagram-icon-needles {
+	top:2070px;
+	left:80px;
+	position:absolute;
+}
+
+.email-icon-needles {
+	top:2070px;
+	left:140px;
+	position:absolute;
+}
+
+.ending-text-needles {
+	top:1770px;
+	font-family:Optima;
+	font-size:20px;
+	position:absolute;
+	background-color:rgb(227, 232, 255);
+}
+
+.ending-yarn {
+	width:100%;
+	height:50%;
+	top:2200px;
+	position:absolute;
+	left:0px;
+}
+
+.ending-image-yarn {
+	width:30%;
+	height:30%;
+	left:480px;
+	top:2250px;
+	position:absolute;
+}
+
+.instagram-icon-yarn {
+	top:2300px;
+	left:80px;
+	position:absolute;
+}
+
+.email-icon-yarn {
+	top:2300px;
+	left:140px;
+	position:absolute;
+}
+
+.ending-text-yarn {
+	top:2000px;
+	font-family:Optima;
+	font-size:20px;
+	position:absolute;
+	background-color:rgb(227, 232, 255);
+}
+
+.ending-stitch {
+	width:100%;
+	height:50%;
+	top:2400px;
+	position:absolute;
+	left:0px;
+}
+
+.ending-image-stitch {
+	width:30%;
+	height:30%;
+	left:480px;
+	top:2450px;
+	position:absolute;
+}
+
+.instagram-icon-stitch {
+	top:2500px;
+	left:80px;
+	position:absolute;
+}
+
+.email-icon-stitch {
+	top:2500px;
+	left:140px;
+	position:absolute;
+}
+
+.ending-text-stitch {
+	top:2200px;
+	font-family:Optima;
+	font-size:20px;
+	position:absolute;
+	background-color:rgb(227, 232, 255);
+}
+
+.ending-aboutme {
+	width:100%;
+	height:50%;
+	top:3500px;
+	position:absolute;
+	left:0px;
+}
+
+.ending-image-aboutme {
+	width:30%;
+	height:30%;
+	left:480px;
+	top:3550px;
+	position:absolute;
+}
+
+.instagram-icon-aboutme {
+	top:3600px;
+	left:80px;
+	position:absolute;
+}
+
+.email-icon-aboutme {
+	top:3600px;
+	left:140px;
+	position:absolute;
+}
+
+.ending-text-aboutme {
+	top:3300px;
+	font-family:Optima;
+	font-size:20px;
+	position:absolute;
+	background-color:rgb(227, 232, 255);
+}
+
+.ending-citations {
+	width:100%;
+	height:50%;
+	top:550px;
+	position:absolute;
+	left:0px;
+}
+
+.ending-image-citations {
+	width:30%;
+	height:30%;
+	left:480px;
+	top:600px;
+	position:absolute;
+}
+
+.instagram-icon-citations {
+	top:650px;
+	left:80px;
+	position:absolute;
+}
+
+.email-icon-citations {
+	top:650px;
+	left:140px;
+	position:absolute;
+}
+
+.ending-text-citations {
+	top:350px;
+	font-family:Optima;
+	font-size:20px;
+	position:absolute;
+	background-color:rgb(227, 232, 255);
+}
+
+/* css validator */
+.css-validator {
+	position:absolute;
+	left:1000px;
+	top:900px;
+}
+
+/* html validators */
+
+.html-validator-homepage {
+	position:absolute;
+	left:1000px;
+	top:1020px;
+}
+
+.html-validator-needles {
+	position:absolute;
+	left:1000px;
+	top:2060px;
+}
+
+.html-validator-yarn {
+	position:absolute;
+	left:1000px;
+	top:2260px;
+}
+
+.html-validator-stitch {
+	position:absolute;
+	left:1000px;
+	top:2460px;
+}
+
+.html-validator-aboutme {
+	position:absolute;
+	left:1000px;
+	top:3560px;
+}
+
+.html-validator-citations {
+	position:absolute;
+	left:1000px;
+	top:600px;
+}
+
+/* selects all image tags directly after unordered lists */
+ul+img {
+	width:14%;
+	height:14%;
+	top:340px;
+	left:675px;
+	position:absolute;
+}
+
+/* selects all unordered list tags directly after heading 1's */
+h1+ul {
+	font-family:Optima;
+}
+
+/* selects paragraph tags directly after heading 2's */
+h2+p {
+	left:50px;
+	margin-top:555px;
+	position:absolute;
+	font-family:Optima;
+}
+
+/* selects all heading 1's */
+h1 {
+	margin-top:200px;
+	left:50px;
+	position:absolute;
+	font-family:Optima;
+	font-weight:200;
+}
+
+/* selects all heading 2's */
+h2 {
+	margin-top:515px;
+	left:50px;
+	position:absolute;
+	font-family:Optima;
+	font-weight:200;
+}
+
+/* selects all paragraph tags */
+p {
+	left:50px;
+	margin-top:250px;
+	position:absolute;
+	font-family:Optima;
+}
+
+/* selects all unordered lists */
+ul {
+	list-style-type: none;
+	top:50px;
+	left:250px;
+	padding:0;
+	overflow:hidden;
+	position:absolute;
+}
+
+/* selects all lists */
+li {
+	float:left;
+}
+
+/* selects all a tags that are descendants of lists */
+li a {
+	font-size:18px;
+	display:block;
+	color:black;
+	text-align:center;
+	font-family:Didot;
+  	padding:30px 32px;
+  	text-decoration:none;
+}
+
+/* changes colour when hovered over */
+li a:hover {
+	color:rgb(19, 47, 173);
+  	background-color:rgb(227, 232, 255);
+}
+
+/* selects all table heading tags */
+th {
+	font-size:20px;
+	padding:14px 50px;
+	font-family:Optima;
+	border-style:solid;
+	border-width:2px;
+	border-color:rgb(24, 38, 128);
+	background-color:rgb(237, 240, 255);
+}
+
+/* selects all table data tags */
+td {
+	font-size:14px;
+	padding:14px 50px;
+	font-family:Optima;
+	border-style:solid;
+	border-width:2px;
+	border-color:rgb(24, 38, 128);
+	background-color:rgb(237, 240, 255);
+}
